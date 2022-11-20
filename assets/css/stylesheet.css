@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.navbar-brand{
+    font-family: 'Kalam', cursive;
+
+}
+
+#quienes-somos{
+    background-color: black;
+}
+
+#quienes-somos h1{
+    color: white;
+}
+
+#quienes-somos .card-body{
+    background-color: black;
+}
+
+
+
+.card-text{
+    color:white;
+}
+
+#destacados{
+    background-color: black;
+}
+
+#destacados h1{
+    color:white;
+}
+
+#destacados h5{
+    color: white;
+}
+
+.card-img-top {;
+    background-position: center;
+}
+
+.card {
+    margin: auto;
+    margin-bottom: 10%;
+    object-fit: cover;
+    margin-top: 10%;
+}
+
+#destacados .card-body{
+    background-color: #BDC3C7;
+}
+
+.tarjetas-destacados{
+    padding: 5%;
+}
+
+/*Footer*/
+
+footer{
+    font-family: 'Kalam', cursive;
+    background-color: black;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
