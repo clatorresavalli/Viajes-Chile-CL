@@ -1,6 +1,6 @@
 //NavBar/
 
-$(document).ready(function(){
+    $(document).ready(function(){
 
     $("a").click(function(){
         var gato= this.hash
@@ -28,14 +28,14 @@ $(document).ready(function(){
     
     
     
-    //Tooltip botón enviar//
+//Tooltip botón enviar//
     
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl)
     })
     
-    //Alerta mensaje enviado correctamente//
+//Alerta mensaje enviado correctamente//
     
     $("#btn-enviar").click(function(){
         alert("Tu mensaje fue enviado correctamente")

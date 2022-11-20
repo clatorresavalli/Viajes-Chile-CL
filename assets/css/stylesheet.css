@@ -8,28 +8,22 @@ body{
 
 
 /*NavBar*/
+
 .navbar-brand{
     font-family: 'Kalam', cursive;
-
 }
 
-#quienes-somos{
-    background-color: black;
-}
+/*Quienes Somos*/
 
 #quienes-somos h1{
     color: white;
 }
 
-#quienes-somos .card-body{
-    background-color: black;
-}
-
-
-
 .card-text{
     color:white;
 }
+
+/* Destacados */
 
 #destacados{
     background-color: black;
@@ -43,7 +37,9 @@ body{
     color: white;
 }
 
-.card-img-top {;
+/* Tarjetas sección destacados */
+
+.card-img-top {
     background-position: center;
 }
 
@@ -66,7 +62,6 @@ body{
 
 footer{
     font-family: 'Kalam', cursive;
-    background-color: black;
 }
 
 #footer a{
